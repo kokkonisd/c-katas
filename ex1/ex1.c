@@ -36,7 +36,29 @@ void sortArray (double *array, int size)
 {
     /* === Your code starts here === */
 
-    // solution
+    double *temp = malloc(sizeof(double) * size);
+    double min;
+    int minIndex;
+
+    for (int i = 0; i < size; i++) {
+        min = MAX_LIMIT;
+        for (int j = 0; j < size; j++) {
+            if (array[j] < min) {
+                min = array[j];
+                minIndex = j;
+            }
+        }
+
+        array[minIndex] = MAX_LIMIT;
+
+        temp[i] = min;
+    }
+
+    for (int i = 0; i < size; i++) {
+        array[i] = temp[i];
+    }
+
+    free(temp);
 
     /* === Your code ends here === */
 }
