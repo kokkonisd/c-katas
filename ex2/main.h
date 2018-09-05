@@ -8,6 +8,9 @@ https://kokkonisd.github.io
 #ifndef __MAIN_H__
 #define __MAIN_H__
 
+#include <stdio.h>
+#include "connectFour.h"
+
 #define VISIBLE_COLS 7
 #define VISIBLE_ROWS 6
 #define WINNING_LENGTH 4
@@ -18,7 +21,13 @@ https://kokkonisd.github.io
 
 /* === Your code starts here === */
 
+#define CELL_EMPTY 0
+#define CELL_P1 1
+#define CELL_P2 -1
 
+extern int roundsPlayed;
+extern int board[MODEL_ROWS][MODEL_COLS];
+extern int numberOfPieces[MODEL_COLS];
 
 /* === Your code ends here === */
 
