@@ -1,6 +1,6 @@
 # Exercise 02 - Connect Four
 
-This time, you'll have to code a terminal implementation of (Connect Four)[https://en.wikipedia.org/wiki/Connect_Four].
+This time, you'll have to code a terminal implementation of [Connect Four](https://en.wikipedia.org/wiki/Connect_Four).
 
 ### Data model definition
 In order to make this kata a bit less ambiguous/open, let's define how the game will be displayed and how its data will be handled.
