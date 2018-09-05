@@ -1,6 +1,8 @@
 /*
 Exercice 01 - Sort an array manually
 
+This is a solution! Spoilers ahead!
+
 Written by Dimitris Kokkonis
 https://kokkonisd.github.io
 */
