@@ -36,6 +36,8 @@ void sortArray (double *array, int size)
 {
     /* === Your code starts here === */
 
+    // solution
+
     /* === Your code ends here === */
 }
 
