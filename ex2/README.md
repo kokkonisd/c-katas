@@ -53,7 +53,7 @@ The steps in the list below will guide you through the kata. Keep in mind that t
 2. In `main.c`, define the global variables that will be used to keep track of the number of rounds played (`roundsPlayed`), the board array itself (as explained previously) as well as another array that will keep track of how many pieces are currently contained in each column. Make sure to update `main.h` accordingly.
 3. In `main.c`, complete the function called `initGame` that initializes all the global variables correctly.
 4. In `printBoard.c`, complete the function called `printCell` that prints a cell of the board based on an integer value.
-5. In `printBoard.c`, complete the function called `printBoard` that prints the entire board using the global variables from `main.h` as well as `printBoard` from the previous step.
+5. In `printBoard.c`, complete the function called `printBoard` that prints the entire board using the global variables from `main.h` as well as `printCell` from the previous step.
 6. Complete `printBoard.h` accordingly (by adding the three character constants used to visualise the state of each cell).
 7. In `handleBoard.c`, complete the function called `getCellValue` that takes in the `x` and `y` coordinates of the **visible** board and returns the integer value of the cell (0, 1 or -1).
 8. In `handleBoard.c`, complete the function called `getNumberOfCellPieces` that takes in a column index and returns the number of pieces in that column.

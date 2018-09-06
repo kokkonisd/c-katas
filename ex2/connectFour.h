@@ -18,7 +18,7 @@ https://kokkonisd.github.io
 
 extern bool isMoveInvalid (int colIndex);
 extern int playMove (void);
-extern int playGame (void);
+extern void playGame (void);
 
 /* === Your code ends here === */
 
