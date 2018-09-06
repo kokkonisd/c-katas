@@ -21,13 +21,7 @@ https://kokkonisd.github.io
 
 /* === Your code starts here === */
 
-#define CELL_EMPTY 0
-#define CELL_P1 1
-#define CELL_P2 -1
 
-extern int roundsPlayed;
-extern int board[MODEL_ROWS][MODEL_COLS];
-extern int numberOfPieces[MODEL_COLS];
 
 /* === Your code ends here === */
 

@@ -13,9 +13,7 @@ https://kokkonisd.github.io
 
 /* === Your code starts here === */
 
-extern int getCellValue (int visibleX, int visibleY);
-extern int getNumberOfCellPieces (int colIndex);
-extern void addPiece (int colIndex);
+
 
 /* === Your code ends here === */
 

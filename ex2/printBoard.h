@@ -14,12 +14,7 @@ https://kokkonisd.github.io
 
 /* === Your code starts here === */
 
-#define SYMBOL_EMPTY ' '
-#define SYMBOL_P1 '+'
-#define SYMBOL_P2 '*'
 
-extern void printCell (int piece);
-extern void printBoard (void);
 
 /* === Your code ends here === */
 

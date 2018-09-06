@@ -16,9 +16,7 @@ https://kokkonisd.github.io
 
 /* === Your code starts here === */
 
-extern bool isMoveInvalid (int colIndex);
-extern int playMove (void);
-extern void playGame (void);
+
 
 /* === Your code ends here === */
 

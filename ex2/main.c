@@ -20,15 +20,7 @@ void initGame (void)
 {
     /* === Your code starts here === */
 
-    roundsPlayed = 0;
 
-    for (int i = 0; i < MODEL_COLS; i++) {
-        numberOfPieces[i] = 0;
-
-        for (int j = 0; j < MODEL_ROWS; j++) {
-            board[j][i] = CELL_EMPTY;
-        }
-    }
 
     /* === Your code ends here === */
 }
@@ -38,9 +30,7 @@ int main (int argc, char *argv[])
 {
     /* === Your code starts here === */
 
-    initGame();
-
-    playGame();
+    
 
     /* === Your code ends here === */
 
