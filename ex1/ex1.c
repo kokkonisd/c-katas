@@ -13,7 +13,7 @@ https://kokkonisd.github.io
 #define MAX_LIMIT 20
 
 /* Prints a (double) array. */
-void printArray (double *array, int size)
+void printArray (double * array, int size)
 {
     for (int i = 0; i < size; i++)
         printf("%.2f\n", array[i]);
@@ -21,7 +21,7 @@ void printArray (double *array, int size)
 
 
 /* Checks if a (double) array is sorted. */
-int isArraySorted (double *array, int size)
+int isArraySorted (double * array, int size)
 {
     for (int i = 0; i < size; i += 2)
         if (array[i] > array[i + 1])
@@ -31,7 +31,7 @@ int isArraySorted (double *array, int size)
 }
 
 
-void sortArray (double *array, int size)
+void sortArray (double * array, int size)
 {
     /* === Your code starts here === */
 
@@ -39,7 +39,7 @@ void sortArray (double *array, int size)
 }
 
 
-int main (int argc, char *argv[])
+int main (int argc, char * argv[])
 {
     // some random grades
     double grades[] = { 19.8, 20, 2.3, 3, 16.4, 20, 0, 0.7, 14.2, 10 };
