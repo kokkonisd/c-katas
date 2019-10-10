@@ -18,7 +18,7 @@ void printCell (int piece)
 }
 
 
-void printBoard (void)
+void printBoard ()
 {
     /* === Your code starts here === */
 

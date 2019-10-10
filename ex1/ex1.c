@@ -15,18 +15,17 @@ https://kokkonisd.github.io
 /* Prints a (double) array. */
 void printArray (double *array, int size)
 {
-    for (int i = 0; i < size; i++) {
+    for (int i = 0; i < size; i++)
         printf("%.2f\n", array[i]);
-    }
 }
 
 
 /* Checks if a (double) array is sorted. */
 int isArraySorted (double *array, int size)
 {
-    for (int i = 0; i < size; i += 2) {
-        if (array[i] > array[i + 1]) return 0;
-    }
+    for (int i = 0; i < size; i += 2)
+        if (array[i] > array[i + 1])
+            return 0;
 
     return 1;
 }

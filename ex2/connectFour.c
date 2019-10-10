@@ -18,7 +18,7 @@ bool isMoveInvalid (int colIndex)
 }
 
 
-int playMove (void)
+int playMove ()
 {
     /* === Your code starts here === */
 
@@ -38,7 +38,7 @@ bool isWinningMove (int colIndex)
 }
 
 
-void playGame (void)
+void playGame ()
 {
     /* === Your code starts here === */
 

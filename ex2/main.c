@@ -16,7 +16,7 @@ int numberOfPieces[MODEL_COLS];
 /* === Your code ends here === */
 
 
-void initGame (void)
+void initGame ()
 {
     /* === Your code starts here === */
 
